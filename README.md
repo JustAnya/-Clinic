@@ -6,5 +6,6 @@
   To work with already registered users in the file "КУРСОВОЙ.txt" logins, passwords and initial information are indicated.
   
   Database schema
+  
   ![database](CLINIC/Снимок.PNG)
 
