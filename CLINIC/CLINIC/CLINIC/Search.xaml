@@ -1,0 +1,32 @@
+﻿<Window x:Class="CLINIC.Search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CLINIC"
+        mc:Ignorable="d"
+        Title="Menu1"  AllowsTransparency="True" Height="560" Width="500" FontSize="22" Window.WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="images\fonreg17.JPG" Stretch="UniformToFill"  TileMode="None"  />
+    </Window.Background>
+    <Grid>
+
+        <Border Background="Transparent" Margin="10,10,11,0">
+            <StackPanel x:Name="Daock" Margin="0,0,0.6,9.6" >
+                <Label Content="C L I N I C" Foreground="#D8D8D8" FontSize="30" FontFamily="Palatino Linotype" Margin="-2,0,324.4,0" Padding="2.1,5,5,5" RenderTransformOrigin="0.544,0.482" Height="47"/>
+                <Label Content="S e a r c h" Foreground="White" FontSize="46" HorizontalAlignment="Center" FontFamily="Palatino Linotype" Margin="225,-11,-12.6,0" Width="266" Padding="2.1,2,5,5" RenderTransformOrigin="0.544,0.482" Height="57"/>
+                <Separator Margin="35,-11,24.8,335" Height="23"/>
+                <TextBox x:Name="name" Tag="Name doctor..." Style="{StaticResource text}" FontSize="30" Height="40" Margin="35,-329,64,1933.2" Background="#26431919" />
+                <Button x:Name="ButtomSearch" Margin="414,-3138,25.4,767"          
+                    Click="ButtomSearch_Click"
+                    FontSize="26" FontFamily="Palatino Linotype" Content="+"  Background="#FF0040" Opacity="0.6"  RenderTransformOrigin="0.505,1.344" Grid.RowSpan="2" Height="41" />
+                <ListBox x:Name="list" ScrollViewer.VerticalScrollBarVisibility="Visible" FontSize="24" Foreground="White" Margin="35,-2554,25.4,1187" BorderThickness="0" Height="122" Opacity="0.7" Background="#FFA3CAFA"/>
+                <TextBox x:Name="name1" Tag="Name medicin..." Style="{StaticResource text}" FontSize="30" Height="40" Margin="35,-2554,64.4,1000.2" Background="#26431919" />
+                <Button x:Name="ButtomSearch1" Margin="414,-2554,25.4,1000.2"          
+                    Click="ButtomSearch_Click"
+                    FontSize="26" FontFamily="Palatino Linotype" Content="+"  Background="#FF0040" Opacity="0.6"  RenderTransformOrigin="0.505,1.344" Grid.RowSpan="2" Height="41" />
+                <ListBox x:Name="list1" ScrollViewer.VerticalScrollBarVisibility="Visible" FontSize="24" Foreground="White" Margin="35,-2554,25.4,830" BorderThickness="0" Height="122" Opacity="0.7" Background="#FFA3CAFA"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

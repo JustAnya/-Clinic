@@ -1,0 +1,214 @@
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csprojResolveAssemblyReference.cache
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\App.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.cache
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.lref
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe.config
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.pdb
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.g.resources
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.Properties.Resources.resources
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.GenerateResource.Cache
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.CoreCompileInputs.cache
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.exe
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.pdb
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\App.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Style\Texts.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\About.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Profile2.g.cs
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\About.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\obj\Debug\Profile2.baml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.dll
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.dll
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.xml
+D:\4 семестр\КП\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.xml
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe.config
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.pdb
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.dll
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.dll
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.xml
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.xml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csprojResolveAssemblyReference.cache
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\About.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile2.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\App.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_Content.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.cache
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.lref
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\App.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\About.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile2.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Style\Texts.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.g.resources
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.Properties.Resources.resources
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.GenerateResource.Cache
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.CoreCompileInputs.cache
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.exe
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.pdb
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.baml
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\DB1.mdf
+D:\KP\CLINIC\CLINIC\CLINIC\bin\Debug\DB1_log.ldf
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csprojResolveAssemblyReference.cache
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\About.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile2.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\App.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_Content.g.cs
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.cache
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.lref
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.exe
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.pdb
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\DB1.mdf
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\DB1_log.ldf
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe.config
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.pdb
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.dll
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.dll
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.xml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.xml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\App.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\About.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Profile2.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Style\Texts.baml
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.g.resources
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.Properties.Resources.resources
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.GenerateResource.Cache
+D:\4 семестр\С#\KP\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.CoreCompileInputs.cache
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\ListPatients.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Search.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\ListPatients.baml
+D:\KP\CLINIC\CLINIC\CLINIC\obj\Debug\Search.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csprojResolveAssemblyReference.cache
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\App.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_Content.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.cache
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.lref
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.exe
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.pdb
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\DB1.mdf
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\DB1_log.ldf
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe.config
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.pdb
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.dll
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.dll
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.xml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.xml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\App.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Style\Texts.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.g.resources
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.Properties.Resources.resources
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.GenerateResource.cache
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.CoreCompileInputs.cache
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.CopyComplete
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\About.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\AddDocInfo.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\ListPatients.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Search.g.cs
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\About.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\AddDocInfo.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\ListPatients.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.baml
+D:\Универ\4 сем\KP\4 семестр Курсовые\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Search.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\DB1.mdf
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\DB1_log.ldf
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe.config
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.exe
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\CLINIC.pdb
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.dll
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.dll
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.xml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\bin\Debug\EntityFramework.SqlServer.xml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csprojResolveAssemblyReference.cache
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\About.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\AddDocInfo.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\ListPatients.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Search.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\App.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_Content.g.cs
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.cache
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC_MarkupCompile.lref
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\App.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\About.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\AddDocInfo.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\DoctorRegistration.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\HealthCard2.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\ListPatients.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\MainWindow.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu1.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Menu2.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Profile1.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Registration.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Search.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\Style\Texts.baml
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.g.resources
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.Properties.Resources.resources
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.GenerateResource.Cache
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.csproj.CoreCompileInputs.cache
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.exe
+D:\KP\CLINIC\CLINIC\CLINIC\CLINIC\obj\Debug\CLINIC.pdb

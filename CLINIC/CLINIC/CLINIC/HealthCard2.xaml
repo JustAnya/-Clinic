@@ -1,0 +1,25 @@
+﻿<Window x:Class="CLINIC.HealthCard2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CLINIC"
+        mc:Ignorable="d"
+         Title="Registration"  AllowsTransparency="True" Height="473.509" Width="650" FontSize="22" Window.WindowStyle="None" WindowStartupLocation="CenterScreen">
+
+    <Window.Background>
+        <ImageBrush ImageSource="images\fonreg10 (15).JPG" Stretch="UniformToFill"  TileMode="None"  />
+    </Window.Background>
+    <Grid>
+        <Border   CornerRadius="5" Margin="-17,0,-0.2,18.4">
+            <StackPanel Margin="19,7,-0.4,-19.6">
+                <Label Content="C L I N I C" Foreground="#D8D8D8" FontSize="40" HorizontalAlignment="Center" FontFamily="Palatino Linotype" Margin="-155,0,231,0" Width="209" Padding="2.1,5,5,5" RenderTransformOrigin="0.544,0.482" Height="56"/>
+                <Label Content="My Talon" Foreground="White" FontSize="60" HorizontalAlignment="Center" FontFamily="Palatino Linotype" Margin="253,-18,30.8,0" Width="365" Padding="2.1,2,5,5" RenderTransformOrigin="0.544,0.482" Height="91"/>
+                <Separator Margin="35,2,33.8,335" Height="28"/>
+                <Label Content="Nearest posts :" Foreground="White" FontSize="40" FontFamily="Palatino Linotype" Margin="0,-350,319.2,279" Padding="2.1,5,5,5" RenderTransformOrigin="0.526,0.575" Height="64" HorizontalAlignment="Right" Width="282"/>
+                <ListBox FontSize="18" Foreground="Black" FontFamily="Palatino Linotype" x:Name="list_talon" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="White" Canvas.Left="618" Canvas.Top="59" Margin="35,-277,33.8,280.8" Height="220"/>
+            </StackPanel>
+        </Border>
+        <Image  Source="images/icon/Left_32px.png"  Margin="594,0,-0.4,432.6" RenderTransformOrigin="2.516,12.538" MouseLeftButtonDown="Image_MouseLeftButtonDown_2" />
+    </Grid>
+</Window>

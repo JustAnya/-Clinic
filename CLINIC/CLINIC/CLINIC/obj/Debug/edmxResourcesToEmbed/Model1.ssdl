@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище DB1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DOCTOR">
+    <Key>
+      <PropertyRef Name="Id_doctor" />
+    </Key>
+    <Property Name="Id_doctor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="About_doctor" Type="nvarchar(max)" />
+    <Property Name="Id_specialty" Type="int" />
+    <Property Name="Id_user" Type="int" />
+    <Property Name="Initial_doc" Type="nchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Health_card">
+    <Key>
+      <PropertyRef Name="Id_card" />
+    </Key>
+    <Property Name="Id_card" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_user" Type="int" />
+    <Property Name="Height" Type="int" />
+    <Property Name="Weight" Type="int" />
+    <Property Name="Chronic_disease" Type="nvarchar(max)" />
+    <Property Name="Test_results" Type="nvarchar(max)" />
+    <Property Name="Diagnosis" Type="nvarchar(max)" />
+    <Property Name="Treatment" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="Id_profile" />
+    </Key>
+    <Property Name="Id_profile" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Age" Type="date" Nullable="false" />
+    <Property Name="Phone_number" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Id_user" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Init" Type="nvarchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="Specialty">
+    <Key>
+      <PropertyRef Name="Id_specialty" />
+    </Key>
+    <Property Name="Id_specialty" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name_specialty" Type="nvarchar" MaxLength="20" />
+    <Property Name="About_specialty" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TimeDoctor">
+    <Key>
+      <PropertyRef Name="Id_time_doctor" />
+    </Key>
+    <Property Name="Id_time_doctor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_time" Type="int" />
+    <Property Name="Day" Type="int" />
+    <Property Name="Id_doctor" Type="int" />
+  </EntityType>
+  <EntityType Name="Timetable">
+    <Key>
+      <PropertyRef Name="Id_timetable" />
+    </Key>
+    <Property Name="Id_timetable" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_time_doctor" Type="int" />
+    <Property Name="Id_card" Type="int" />
+  </EntityType>
+  <EntityType Name="TimeUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AllTime" Type="nvarchar" MaxLength="20" />
+    <Property Name="Time" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="Id_user" />
+    </Key>
+    <Property Name="Id_user" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Access" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__DOCTOR__Id_speci__5FB337D6">
+    <End Role="Specialty" Type="Self.Specialty" Multiplicity="0..1" />
+    <End Role="DOCTOR" Type="Self.DOCTOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Specialty">
+        <PropertyRef Name="Id_specialty" />
+      </Principal>
+      <Dependent Role="DOCTOR">
+        <PropertyRef Name="Id_specialty" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DOCTOR__Id_user__55009F39">
+    <End Role="USER" Type="Self.USER" Multiplicity="0..1" />
+    <End Role="DOCTOR" Type="Self.DOCTOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="Id_user" />
+      </Principal>
+      <Dependent Role="DOCTOR">
+        <PropertyRef Name="Id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Health_ca__Id_us__540C7B00">
+    <End Role="USER" Type="Self.USER" Multiplicity="0..1" />
+    <End Role="Health_card" Type="Self.Health_card" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="Id_user" />
+      </Principal>
+      <Dependent Role="Health_card">
+        <PropertyRef Name="Id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Profile__Id_user__55F4C372">
+    <End Role="USER" Type="Self.USER" Multiplicity="0..1" />
+    <End Role="Profile" Type="Self.Profile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="Id_user" />
+      </Principal>
+      <Dependent Role="Profile">
+        <PropertyRef Name="Id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TimeDocto__Id_do__40058253">
+    <End Role="DOCTOR" Type="Self.DOCTOR" Multiplicity="0..1" />
+    <End Role="TimeDoctor" Type="Self.TimeDoctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DOCTOR">
+        <PropertyRef Name="Id_doctor" />
+      </Principal>
+      <Dependent Role="TimeDoctor">
+        <PropertyRef Name="Id_doctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TimeDocto__Id_ti__40F9A68C">
+    <End Role="TimeUser" Type="Self.TimeUser" Multiplicity="0..1" />
+    <End Role="TimeDoctor" Type="Self.TimeDoctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TimeUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TimeDoctor">
+        <PropertyRef Name="Id_time" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Timetable__Id_ca__3F115E1A">
+    <End Role="Health_card" Type="Self.Health_card" Multiplicity="0..1" />
+    <End Role="Timetable" Type="Self.Timetable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Health_card">
+        <PropertyRef Name="Id_card" />
+      </Principal>
+      <Dependent Role="Timetable">
+        <PropertyRef Name="Id_card" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Timetable__Id_ti__3E1D39E1">
+    <End Role="TimeDoctor" Type="Self.TimeDoctor" Multiplicity="0..1" />
+    <End Role="Timetable" Type="Self.Timetable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TimeDoctor">
+        <PropertyRef Name="Id_time_doctor" />
+      </Principal>
+      <Dependent Role="Timetable">
+        <PropertyRef Name="Id_time_doctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище DB1ModelContainer">
+    <EntitySet Name="DOCTOR" EntityType="Self.DOCTOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Health_card" EntityType="Self.Health_card" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profile" EntityType="Self.Profile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Specialty" EntityType="Self.Specialty" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeDoctor" EntityType="Self.TimeDoctor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Timetable" EntityType="Self.Timetable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeUser" EntityType="Self.TimeUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DOCTOR__Id_speci__5FB337D6" Association="Self.FK__DOCTOR__Id_speci__5FB337D6">
+      <End Role="Specialty" EntitySet="Specialty" />
+      <End Role="DOCTOR" EntitySet="DOCTOR" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DOCTOR__Id_user__55009F39" Association="Self.FK__DOCTOR__Id_user__55009F39">
+      <End Role="USER" EntitySet="USER" />
+      <End Role="DOCTOR" EntitySet="DOCTOR" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Health_ca__Id_us__540C7B00" Association="Self.FK__Health_ca__Id_us__540C7B00">
+      <End Role="USER" EntitySet="USER" />
+      <End Role="Health_card" EntitySet="Health_card" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Profile__Id_user__55F4C372" Association="Self.FK__Profile__Id_user__55F4C372">
+      <End Role="USER" EntitySet="USER" />
+      <End Role="Profile" EntitySet="Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TimeDocto__Id_do__40058253" Association="Self.FK__TimeDocto__Id_do__40058253">
+      <End Role="DOCTOR" EntitySet="DOCTOR" />
+      <End Role="TimeDoctor" EntitySet="TimeDoctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TimeDocto__Id_ti__40F9A68C" Association="Self.FK__TimeDocto__Id_ti__40F9A68C">
+      <End Role="TimeUser" EntitySet="TimeUser" />
+      <End Role="TimeDoctor" EntitySet="TimeDoctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Timetable__Id_ca__3F115E1A" Association="Self.FK__Timetable__Id_ca__3F115E1A">
+      <End Role="Health_card" EntitySet="Health_card" />
+      <End Role="Timetable" EntitySet="Timetable" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Timetable__Id_ti__3E1D39E1" Association="Self.FK__Timetable__Id_ti__3E1D39E1">
+      <End Role="TimeDoctor" EntitySet="TimeDoctor" />
+      <End Role="Timetable" EntitySet="Timetable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

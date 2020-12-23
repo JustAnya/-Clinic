@@ -1,0 +1,53 @@
+﻿<Window x:Class="CLINIC.Profile1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CLINIC"
+        mc:Ignorable="d"
+        Title="Registration"  AllowsTransparency="True" Height="650" Width="650" FontSize="22" Window.WindowStyle="None" WindowStartupLocation="CenterScreen">
+
+    <Window.Background>
+        <ImageBrush ImageSource="images\fonreg10 (15).JPG" Stretch="UniformToFill"  TileMode="None"  />
+    </Window.Background>
+
+    <Grid>
+        <Border   CornerRadius="5" Margin="0,10,-0.4,9" HorizontalAlignment="Left" Width="650">
+            <StackPanel x:Name="profile" Margin="29,10,-0.4,-9.6">
+                <Label Content="P R O F I L E" Foreground="#D8D8D8" FontSize="50" HorizontalAlignment="Center" FontFamily="Palatino Linotype" Margin="141,8,136.8,-3" Width="343" Padding="2.1,5,5,5" RenderTransformOrigin="0.544,0.482" Height="79"/>
+                <Separator Margin="35,-10,33.8,346" Height="10"/>
+                <Image x:Name="Photo" Height="183" Margin="2,-268,458.8,-12" VerticalAlignment="Top" Grid.RowSpan="2" RenderTransformOrigin="1.957,0.497"/>
+                <Label Content="Foto" Foreground="#D8D8D8" FontSize="30" HorizontalAlignment="Right" FontFamily="Palatino Linotype" Margin="-1,-602,552.8,-3" Width="69" Padding="2.1,5,5,5" RenderTransformOrigin="0.511,0.552" Height="45"/>
+                <Separator Margin="35,-68,33.8,346" Height="15"/>
+                <Label Content="Name :" Foreground="#D8D8D8" FontSize="30" FontFamily="Palatino Linotype" Margin="183,-879,336.8,279" Padding="2.1,5,5,5" RenderTransformOrigin="0.511,0.552" Height="53"/>
+                <Label Content="Surname :" Foreground="#D8D8D8" FontSize="30" FontFamily="Palatino Linotype" Margin="183,-709,293.8,279" Padding="2.1,5,5,5" RenderTransformOrigin="0.511,0.552" Height="53"/>
+                <Label Content="Age :" Foreground="#D8D8D8" FontSize="30" HorizontalAlignment="Center" FontFamily="Palatino Linotype" Margin="183,-577,293.8,253" Width="144" Padding="2.1,5,5,5" RenderTransformOrigin="0.511,0.552" Height="50"/>
+                <Label Content="Phone number :" Foreground="#D8D8D8" FontSize="30" FontFamily="Palatino Linotype" Margin="8,-327,383.8,279" Padding="2.1,5,5,5" RenderTransformOrigin="0.511,0.552" Height="50"/>
+                <Label Content="Address :" Foreground="#D8D8D8" FontSize="30" HorizontalAlignment="Right" FontFamily="Palatino Linotype" Margin="0,-257,383.8,279" Width="229" Padding="2.1,5,5,5" RenderTransformOrigin="0.511,0.552" Height="50"/>
+            </StackPanel>
+
+
+        </Border>
+        <Image  Source="images/icon/roll_32.png"  Margin="558,0,50.6,605.6" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
+        <Image  Source="images/icon/close_32.png" Margin="599,2,-0.4,605.6" RenderTransformOrigin="0.594,0.15" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image  Source="images/icon/Left_32px.png"  Margin="519,2,96.6,605.6" RenderTransformOrigin="2.516,12.538" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+        <Image  Source="images/icon/icon/Camera.png" MouseLeftButtonDown="Image_MouseLeftButtonDown_3"  Margin="94,141,513.6,480.6" RenderTransformOrigin="10.724,8.12" />
+        <TextBox x:Name="Surname" Style="{StaticResource text}" FontSize="20" FontFamily="Palatino Linotype" TextWrapping="Wrap" Text="" RenderTransformOrigin="1.693,21.391" Margin="366,213,30.6,387.6" Width="253"/>
+        <TextBox x:Name="Name" Style="{StaticResource text}" FontSize="20" FontFamily="Palatino Linotype" HorizontalAlignment="Right" Height="47" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="253" RenderTransformOrigin="1.693,21.391" Margin="0,127,30.6,0"/>
+        <!--<TextBox x:Name="Age" Style="{StaticResource text}" HorizontalAlignment="Right" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="253" RenderTransformOrigin="1.693,21.391" Margin="0,298,30.6,0"/>-->
+
+        <DatePicker x:Name="dateevent" Margin="366,300,30.6,0" VerticalAlignment="Top" Foreground="Black"  FontFamily="Palatino Linotype" FontSize="30" Height="48" RenderTransformOrigin="0.492,0.192"/>
+        <TextBox MaxLength="12" PreviewTextInput="Phone_PreviewTextInput" x:Name="Phone" Style="{StaticResource text}" FontSize="20" FontFamily="Palatino Linotype"  HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="349" RenderTransformOrigin="1.693,21.391" Margin="270,410,0,0"/>
+        <TextBox x:Name="Address" Style="{StaticResource text}" FontSize="20" FontFamily="Palatino Linotype" TextWrapping="Wrap" Text="" RenderTransformOrigin="1.693,21.391" Margin="270,476,30.6,126.6"/>
+        <DockPanel Margin="0,549,-0.4,9.6">
+            <Button x:Name="addinfo" Margin="20"    
+                    Click="ButtonInfo_Click"
+                    FontSize="32" Height="53" FontFamily="Palatino Linotype" Content="Add doc's info"  Background="#FF0040" Opacity="0.6"  RenderTransformOrigin="0.505,1.344" Width="348" />
+
+            <Button x:Name="ButtomSave"          
+                    Click="ButtomSave1_Click"
+                    FontSize="32" Height="53" FontFamily="Palatino Linotype" Content="Save"  Background="#FF0040" Opacity="0.6"  RenderTransformOrigin="0.505,1.344" Margin="0,19,0,19.2" Width="239"/>
+
+        </DockPanel>
+    </Grid>
+</Window>
