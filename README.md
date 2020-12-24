@@ -8,4 +8,8 @@
   Database schema include 8 normalize tables.
   
   ![database](https://github.com/JustAnya/Clinic_v2/blob/main/Clinic_v2/database.PNG)
+  
+  Diagram class.
+  
+  ![diagram_class](CLINIC/Диаграммаклассов.PNG)
 
