@@ -3,9 +3,9 @@
 
   The software product has the following functionality: registration and authorization by role; viewing existing doctor records; viewing the schedule; viewing and changing medical cards; making an appointment.
   
-  To work with already registered users in the file "КУРСОВОЙ.txt" logins, passwords and initial information are indicated.
+  To work with already registered users in the file ["КУРСОВОЙ.txt"](CLINIC/КУРСОВОЙ.txt) logins, passwords and initial information are indicated.
   
-  Database schema
+  Database schema include 8 normalize tables.
   
-  ![database](CLINIC/Снимок.PNG)
+  ![database](https://github.com/JustAnya/Clinic_v2/blob/main/Clinic_v2/database.PNG)
 
